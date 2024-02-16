@@ -25,19 +25,19 @@ const Navbar = (props: Props) => {
             )}
           </button>
           <Link href="/" className=" ">
-            <div className="w-[131px] overflow-hidden shrink-0 flex flex-row items-start justify-start cursor-pointer">
+            <div className="w-[200px] overflow-hidden shrink-0 flex flex-row items-start justify-start cursor-pointer">
               <div className="flex-1 overflow-hidden flex flex-col items-center justify-center ">
                 <img
-                  className="self-stretch h-[35.5px] relative max-w-full overflow-hidden shrink-0 object-contain"
+                  className="self-stretch h-[50px] relative max-w-full overflow-hidden shrink-0 object-contain"
                   alt=""
-                  src="/dpex20logo201svg@2x.png"
+                  src="/akuda_logo.png"
                 />
               </div>
             </div>
           </Link>
         </div>
 
-        <div className="hidden md:flex flex-row items-start justify-start py-5 px-0 box-border gap-8">
+        {/* <div className="hidden md:flex flex-row items-start justify-start py-5 px-0 box-border gap-8">
           <a
             className="relative leading-4 hover:text-aquamarine transition-all ease-in-out duration-300"
             href="https://medium.com/@dpex"
@@ -59,13 +59,13 @@ const Navbar = (props: Props) => {
           >
             Docs
           </a>
-        </div>
+        </div> */}
         <button className=" pl-10 self-stretch  md:border-l-[0.8px] border-solid border-gray-1000">
           <div className="flex flex-row items-center justify-start gap-4  cursor-pointer">
             <div className="flex flex-col items-start justify-start">
               <a
                 className="relative  text-white text-left  whitespace-nowrap"
-                href="https://dpex.io/"
+                href="https://AKUDA.io/"
                 target="_blank"
               >
                 Open App

@@ -104,7 +104,7 @@ const Hero: FunctionComponent = () => {
           </div>
         </div>
       </div>
-      <div className="min-h-56 w-11/12 md:w-3/4 py-10 self-stretch flex px-10 flex-col md:flex-row md:items-center items-start justify-between   mx-auto  gap-5 z-[3] text-base text-gray-700">
+      {/* <div className="min-h-56 w-11/12 md:w-3/4 py-10 self-stretch flex px-10 flex-col md:flex-row md:items-center items-start justify-between   mx-auto  gap-5 z-[3] text-base text-gray-700">
         <div className="flex flex-row items-start justify-start gap-[23px] sm:flex-wrap">
           <div className="overflow-hidden flex flex-row items-center justify-center max-w-[318.70001220703125px]">
             <img
@@ -160,7 +160,7 @@ const Hero: FunctionComponent = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };

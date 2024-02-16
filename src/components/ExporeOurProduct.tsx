@@ -19,7 +19,7 @@ const ExploreOurProducts: FunctionComponent = () => {
       ),
       subtitle: (
         <p>
-          DPEX is proud to bring decentralized trading to the Polygon network
+          AKUDA is proud to bring decentralized trading to the Polygon network
           ...
         </p>
       ),
@@ -30,7 +30,7 @@ const ExploreOurProducts: FunctionComponent = () => {
       bgImage: "/images/product-bg-2.png",
       title: <p>Referral Program</p>,
       subtitle: (
-        <p>The DPEX referral program provides a great opportunity ...</p>
+        <p>The AKUDA referral program provides a great opportunity ...</p>
       ),
     },
     {
@@ -40,7 +40,7 @@ const ExploreOurProducts: FunctionComponent = () => {
       title: <p>Fully Decentralized</p>,
       subtitle: (
         <p>
-          The DPEX Foundation is a cutting-edge, <br /> founderless ...
+          The AKUDA Foundation is a cutting-edge, <br /> founderless ...
         </p>
       ),
     },

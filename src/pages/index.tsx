@@ -34,7 +34,7 @@ const LandingPage = () => {
       <section className="self-stretch flex flex-col items-center justify-start pt-[76px] px-0 pb-[25px] box-border gap-[52px] max-w-full shrink-0 z-[2] text-center text-[32.7px] text-white font-inter md:gap-[52px] md:pt-8 md:box-border sm:pt-[21px] sm:box-border mq1350:pt-[49px] mq1350:pb-5 mq1350:box-border">
         <TwoTokens />
         <GetStarted />
-        <Clients />
+        {/* <Clients /> */}
         <JoinOurCommunity />
         <Footer />
       </section>

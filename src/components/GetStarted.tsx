@@ -41,7 +41,7 @@ const GetStarted = () => {
             </h1>
           </div>
           <div className="relative text-base leading-6 text-gray-100 ">
-            DPEX supports a variety of the most popular Wallets.
+          AKUDA supports a variety of the most popular Wallets.
           </div>
         </div>
         <div className="lists w-full md:w-3/4 lg:w-2/3 mx-auto   self-stretch flex flex-col items-center justify-start  0 px-0 pb-5 box-border max-w-full text-left text-base">

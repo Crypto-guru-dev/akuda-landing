@@ -16,10 +16,10 @@ const ConnectWalletButton: FunctionComponent<ButtonpropsType> = ({
         <div className="flex flex-col items-start justify-start">
           <a
             className="relative text-base-3 leading-[16.96px] font-bold font-inter text-white "
-            href="https://dpex.io/"
+            href="https://AKUDA.io/"
             target="_blank"
           >
-            Connect Your Wallet
+            Trade Now
           </a>
         </div>
       </button>

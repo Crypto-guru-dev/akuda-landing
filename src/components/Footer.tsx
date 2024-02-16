@@ -2,19 +2,19 @@ const Footer = () => {
   return (
     <footer className="w-11/12 mx-auto flex flex-col items-start justify-start  gap-14  text-left text-sm text-white  md:gap-14">
       <div className=" w-full flex flex-col md:flex-row items-center justify-start py-0 pr-px pl-0 box-border gap-[20px] max-w-full md:flex-wrap">
-        <div className="w-1/6 flex flex-col items-start justify-center cursor-pointer">
-          <div className="w-full overflow-hidden flex flex-row items-start justify-start max-w-[131.5500030517578px]">
+        <div className="w-1/3 flex flex-col items-start justify-center cursor-pointer">
+          <div className="w-full overflow-hidden flex flex-row items-start justify-start max-w-[200.5500030517578px]">
             <div className="flex-1 overflow-hidden flex flex-col items-center justify-center">
               <img
-                className="self-stretch h-[34px] relative max-w-full overflow-hidden shrink-0 object-contain"
+                className="self-stretch h-[50px] relative max-w-full overflow-hidden shrink-0 object-contain"
                 loading="eager"
                 alt=""
-                src="/dpex20logo201svg-1@2x.png"
+                src="/akuda_logo.png"
               />
             </div>
           </div>
         </div>
-        <div className="flex flex-row items-start justify-start py-0 pr-[3px] pl-0 box-border gap-[33px] max-w-full sm:flex-wrap sm:gap-[33px]">
+        {/* <div className="flex flex-row items-start justify-start py-0 pr-[3px] pl-0 box-border gap-[33px] max-w-full sm:flex-wrap sm:gap-[33px]">
           <a
             className="relative leading-4 hover:text-aquamarine transition-all ease-in-out duration-300"
             href="https://medium.com/@dpex"
@@ -50,7 +50,7 @@ const Footer = () => {
           >
             FAQ
           </a>
-        </div>
+        </div> */}
       </div>
       <div className="self-stretch flex flex-col md:flex-row items-center md:items-start justify-between gap-[20px] text-mini-7 text-gray-1100 md:flex-wrap">
         <div className="flex flex-row items-center justify-start gap-[8px] max-w-[1377.1300048828125px] cursor-pointer mq1800:max-w-full">
@@ -81,7 +81,7 @@ const Footer = () => {
             <div className="self-stretch flex flex-row items-center justify-start gap-[26px]">
               <a
                 className="relative leading-4 hover:text-aquamarine transition-all ease-in-out duration-300"
-                href="https://dpex.io/terms"
+                href="https://AKUDA.io/terms"
                 target="_blank"
               >
                 Terms and Conditions
@@ -92,14 +92,14 @@ const Footer = () => {
                 </div>
                 <a
                   className="peer/first relative leading-4 hover:text-aquamarine transition-all ease-in-out duration-300"
-                  href="https://www.certik.com/projects/dpex"
+                  href="https://www.certik.com/projects/AKUDA"
                   target="_blank"
                 >
                   Certik
                 </a>
                 <a
                   className="relative leading-4 peer/second  hover:text-aquamarine transition-all ease-in-out duration-300"
-                  href="https://github.com/zokyo-sec/audit-reports/blob/main/DPEX/DPEX_Zokyo%20audit%20report.pdf"
+                  href="https://github.com/zokyo-sec/audit-reports/blob/main/AKUDA/AKUDA_Zokyo%20audit%20report.pdf"
                   target="_blank"
                 >
                   Zokyo

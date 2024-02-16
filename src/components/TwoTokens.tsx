@@ -43,40 +43,40 @@ const TwoTokens: FunctionComponent = () => {
           <div className="self-stretch flex flex-col items-start justify-start gap-4">
             <div className="self-stretch flex flex-row items-center justify-between gap-5 flex-wrap">
               <div className="flex flex-row items-center justify-start gap-4">
-                <div className="overflow-hidden flex flex-col items-start justify-start max-w-[137.85000610351562px]">
+                <div className="overflow-hidden flex flex-col items-start justify-start max-w-[180.85000610351562px]">
                   <div className="overflow-hidden flex flex-col items-center justify-center">
                     <img
-                      className="w-[57.3px] h-[57.3px] relative overflow-hidden shrink-0"
+                      className="w-[80px] h-[80px] relative overflow-hidden shrink-0"
                       loading="eager"
                       alt=""
-                      src="/logodpsvg.svg"
+                      src="/akuda_token.png"
                     />
                   </div>
                 </div>
                 <div className="flex flex-col items-start justify-start">
                   <b className="relative leading-[36.24px] inline-block max-h-[36.2400016784668px] sm:text-xl sm:leading-[29px]">
-                    DPEX
+                  AKUDA
                   </b>
                 </div>
               </div>
-              <button className="text-sm cursor-pointer [border:none] pt-1.5 pb-1 pr-[25px] pl-6 bg-gray-600 rounded-md flex flex-row items-center justify-start">
+              {/* <button className="text-sm cursor-pointer [border:none] pt-1.5 pb-1 pr-[25px] pl-6 bg-gray-600 rounded-md flex flex-row items-center justify-start">
                 <div className="flex flex-col items-start justify-start ">
                   <div className="relative text-xs-9 leading-[25.36px] font-inter text-darkgray text-left inline-block ">
                     APR: 11.25%
                   </div>
                 </div>
-              </button>
+              </button> */}
             </div>
             <div className="relative  leading-8 font-inter text-gray-100 text-base">
-              <p className="break-words">
-                DPEX is the token powering utility and governance
+              {/* <p className="break-words">
+              AKUDA is the token powering utility and governance
               </p>
               <p className="m-0">
                 within its platform, not to mention granting you access
               </p>
               <p className="m-0">
                 to 25% of all fees earned by the system when staked.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="flex flex-row items-center justify-start py-0  pl-0 gap-6 text-sm  md:flex-wrap ">
@@ -84,7 +84,7 @@ const TwoTokens: FunctionComponent = () => {
               <div className="flex flex-col items-start justify-start ">
                 <a
                   className="relative text-sm leading-4 font-inter text-white text-left"
-                  href="https://dpex.io/"
+                  href="https://AKUDA.io/"
                   target="_blank"
                 >
                   Buy on Polygon
@@ -95,7 +95,7 @@ const TwoTokens: FunctionComponent = () => {
               <div className="flex flex-col items-start justify-start">
                 <a
                   className="relative leading-4 hover:text-aquamarine transition-all ease-in-out duration-500"
-                  href="https://dpex.io/"
+                  href="https://AKUDA.io/"
                   target="_blank"
                 >
                   Read More
@@ -109,23 +109,23 @@ const TwoTokens: FunctionComponent = () => {
           <div className="self-stretch flex flex-col items-start justify-start gap-[15px] max-w-full shrink-0">
             <div className="self-stretch text-sm flex flex-col items-start md:items-center md:flex-row  justify-between gap-[20px] max-w-full md:flex-wrap">
               <div className="flex flex-row items-center justify-start gap-[16.95px]">
-                <div className="overflow-hidden flex flex-col items-start justify-start max-w-[137.55999755859375px]">
+                <div className="overflow-hidden flex flex-col items-start justify-start max-w-[180.55999755859375px]">
                   <div className="overflow-hidden flex flex-col items-center justify-center">
                     <img
-                      className="w-[57.3px] h-[57.3px] relative overflow-hidden shrink-0"
+                      className="w-[80px] h-[80px] relative overflow-hidden shrink-0"
                       loading="eager"
                       alt=""
-                      src="/logolpsvg.svg"
+                      src="/akuda_token.png"
                     />
                   </div>
                 </div>
                 <div className="flex flex-col items-start justify-start">
                   <b className="relative leading-[36.24px] inline-block max-h-[36.2400016784668px] sm:text-xl sm:leading-[29px]">
-                    DPLP
+                    ALP
                   </b>
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row items-start justify-start gap-y-1 max-w-full text-xs-9 text-darkgray ">
+              {/* <div className="flex flex-col md:flex-row items-start justify-start gap-y-1 max-w-full text-xs-9 text-darkgray ">
                 <button className="cursor-pointer [border:none] pt-[6.417600154876709px] pb-[4.889599800109863px] pr-[22px] pl-[25.51759910583496px] bg-gray-600 rounded-[4.28px] flex flex-row items-center justify-start">
                   <div className="flex flex-col items-start justify-start">
                     <div className="relative text-smi-1 leading-[25.36px] font-inter text-darkgray text-left inline-block max-h-[25.360000610351562px]">
@@ -148,16 +148,16 @@ const TwoTokens: FunctionComponent = () => {
                     />
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="relative text-base leading-7 font-inter text-gray-100 inline-block  md:max-w-full">
-              <p className="m-0">
+              {/* <p className="m-0">
                 DPLP stands out amongst the rest when it comes to
               </p>
               <p className="m-0">
                 liquidity provider tokens, as they receive an impressive 70%
               </p>
-              <p className="m-0">of all platform generated fees.</p>
+              <p className="m-0">of all platform generated fees.</p> */}
             </div>
           </div>
           <div className="flex flex-row items-center justify-start  gap-[25.13px] text-sm font-inter md:flex-wrap md:pr-[184px] md:box-border sm:pr-5 sm:box-border">
@@ -165,7 +165,7 @@ const TwoTokens: FunctionComponent = () => {
               <div className="flex flex-col items-start justify-start">
                 <a
                   className="relative text-mini-6 leading-4 font-inter text-white text-left inline-block [text-decoration:none] "
-                  href="https://dpex.io/"
+                  href="https://AKUDA.io/"
                   target="_blank"
                 >
                   Buy on Polygon
@@ -176,7 +176,7 @@ const TwoTokens: FunctionComponent = () => {
               <div className="flex flex-col items-start justify-start">
                 <a
                   className="relative leading-4 hover:text-aquamarine transition-all ease-in-out duration-500"
-                  href="https://dpex.io/"
+                  href="https://AKUDA.io/"
                   target="_blank"
                 >
                   Read More
