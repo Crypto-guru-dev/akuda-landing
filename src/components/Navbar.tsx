@@ -60,7 +60,7 @@ const Navbar = (props: Props) => {
             Docs
           </a>
         </div> */}
-        <button className=" pl-10 self-stretch  md:border-l-[0.8px] border-solid border-gray-1000">
+        <button className=" self-stretch  md:border-l-[0.8px] border-solid border-gray-1000">
           <div className="flex flex-row items-center justify-start gap-4  cursor-pointer">
             <div className="flex flex-col items-start justify-start">
               <a
@@ -86,14 +86,14 @@ const Navbar = (props: Props) => {
           isMenuOpen ? "flex" : "hidden"
         } md:hidden flex-col items-center justify-start gap-5 p-5 fixed z-[100] mt-20 text-2xl  text-white bg-[#061a22]/90 backdrop-blur-[1px] w-full h-screen py-20`}
       >
-        <Link href="/">Blog</Link>
-        <Link href="/voting">Voting</Link>
+        {/* <Link href="/">Blog</Link>
+        <Link href="/voting">Voting</Link> */}
         <Link href="/docs">Docs</Link>
         <Link href="/faq">App</Link>
-        <Link href="/whitelist"
+        {/* <Link href="/whitelist"
           className="text-aquamarine/80  hover:text-aquamarine transition-all ease-in-out duration-500"
         
-        >Whitelist</Link>
+        >Whitelist</Link> */}
       </div>
     </>
   );

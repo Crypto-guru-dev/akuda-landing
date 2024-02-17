@@ -55,7 +55,7 @@ const TwoTokens: FunctionComponent = () => {
                 </div>
                 <div className="flex flex-col items-start justify-start">
                   <b className="relative leading-[36.24px] inline-block max-h-[36.2400016784668px] sm:text-xl sm:leading-[29px]">
-                  AKUDA
+                  AKU
                   </b>
                 </div>
               </div>
@@ -106,10 +106,10 @@ const TwoTokens: FunctionComponent = () => {
         </div>
 
         <div className="w-full  rounded-3xl bg-gray-300 flex flex-col items-start justify-start p-6 box-border gap-6 max-w-full">
-          <div className="self-stretch flex flex-col items-start justify-start gap-[15px] max-w-full shrink-0">
-            <div className="self-stretch text-sm flex flex-col items-start md:items-center md:flex-row  justify-between gap-[20px] max-w-full md:flex-wrap">
-              <div className="flex flex-row items-center justify-start gap-[16.95px]">
-                <div className="overflow-hidden flex flex-col items-start justify-start max-w-[180.55999755859375px]">
+          <div className="self-stretch flex flex-col items-start justify-start gap-4">
+            <div className="self-stretch flex flex-row items-center justify-between gap-5 flex-wrap">
+              <div className="flex flex-row items-center justify-start gap-4">
+                <div className="overflow-hidden flex flex-col items-start justify-start max-w-[180.85000610351562px]">
                   <div className="overflow-hidden flex flex-col items-center justify-center">
                     <img
                       className="w-[80px] h-[80px] relative overflow-hidden shrink-0"

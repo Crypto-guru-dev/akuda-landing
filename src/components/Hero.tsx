@@ -58,7 +58,7 @@ const Hero: FunctionComponent = () => {
         >
           <div className="flex flex-col justify-center items-start  max-w-full mt-36">
             <div className="flex flex-col items-start justify-start gap-[28px]">
-              <div className="trade-btn flex flex-col items-start justify-start">
+              {/* <div className="trade-btn flex flex-col items-start justify-start">
                 <div className="rounded-2 bg-gray-400 flex flex-row items-center justify-start pt-5 pb-6 pr-[21px] pl-6 gap-4">
                   <img
                     loading="eager"
@@ -72,7 +72,7 @@ const Hero: FunctionComponent = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div
                 ref={heroTitleRef}
                 className="hero-title relative text-3xl md:text-5xl lg:leading-[55.97px] font-medium  md:leading-[45px] sm:text-3xl sm:leading-[34px]"
