@@ -37,11 +37,11 @@ const GetStarted = () => {
         <div className="header-title w-full flex flex-col items-center justify-start gap-5">
           <div className="flex flex-row items-start justify-start py-0 pr-0 pl-[3px]">
             <h1 className="relative leading-10 md:text-4xl font-bold sm:leading-8 md:leading-10 ">
-              Get startet in 1 step
+              Get started in 1 step
             </h1>
           </div>
           <div className="relative text-base leading-6 text-gray-100 ">
-          AKUDA supports a variety of the most popular Wallets.
+          AKUDA supports a variety of the most popular wallets.
           </div>
         </div>
         <div className="lists w-full md:w-3/4 lg:w-2/3 mx-auto   self-stretch flex flex-col items-center justify-start  0 px-0 pb-5 box-border max-w-full text-left text-base">

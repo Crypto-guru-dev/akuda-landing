@@ -49,7 +49,7 @@ const TwoTokens: FunctionComponent = () => {
                       className="w-[80px] h-[80px] relative overflow-hidden shrink-0"
                       loading="eager"
                       alt=""
-                      src="/akuda_token.png"
+                      src="/AKU.png"
                     />
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const TwoTokens: FunctionComponent = () => {
                       className="w-[80px] h-[80px] relative overflow-hidden shrink-0"
                       loading="eager"
                       alt=""
-                      src="/akuda_token.png"
+                      src="/ALP.png"
                     />
                   </div>
                 </div>
